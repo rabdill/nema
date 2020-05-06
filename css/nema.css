@@ -1,0 +1,10 @@
+header.masthead {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.masthead-content {
+    /*background-color: rgba(255, 255, 255, 0.4);*/
+    color: #FFF;
+    text-shadow: 2px 2px 25px #000;
+}
