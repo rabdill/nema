@@ -1,3 +1,36 @@
+body {
+    background-color: #004aab;
+}
+#main {
+    background-color: #FFF;
+}
+
+.btn-primary {
+    background-color: #004aab;
+}
+
+#main h1 { /* hidden header for accessibility */
+    font-size: 0;
+    width: 1px;
+    height: 1px;
+    display: inline-block;
+    overflow: hidden;
+    position: absolute!important;
+    border: 0!important;
+    padding: 0!important;
+    margin: 0!important;
+    clip: rect(1px,1px,1px,1px);
+}
+
+section {
+    padding: 1em 3em;
+}
+
+.rounded-circle {
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
 header.masthead {
     padding-top: 4rem;
     padding-bottom: 4rem;
